@@ -1,14 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MainPanel from './MainPanel';
+import React, { Component } from 'react';
+import MainPanel from './components/MainPanel';
+import SidePanel from './components/SidePanel';
+import Loader from './components/Loader';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <MainPanel></MainPanel>
-      </header>
+    <div>
+    <div className="colorlib-page">
+      <div className='colorlib-sidebar'>
+        <SidePanel />
+      </div>
+      
+    
+
+      <div id="colorlib-main">
+        <MainPanel />
+        
+      </div>
+  
+    </div>
+    <Loader />
     </div>
   );
 }
