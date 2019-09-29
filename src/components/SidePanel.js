@@ -8,6 +8,7 @@ export default class SidePanel extends Component {
             <aside id="colorlib-aside" role="complementary" className="js-fullheight">
               <nav id="colorlib-main-menu" role="navigation">
                 <ul>
+                  <li className="colorlib-active"><a href="about.html">Home</a></li>
                   <li><a href="fashion.html">Fashion</a></li>
                   <li><a href="travel.html">Travel</a></li>
                   <li><a href="about.html">About</a></li>
